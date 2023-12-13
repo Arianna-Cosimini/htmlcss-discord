@@ -16,6 +16,8 @@ body{
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    padding: 120px 40px;
+    align-items: center;
 
 }
 
@@ -23,7 +25,7 @@ body{
 nav{
     /* padding-bottom: ; */
     /* background-color: #add8e6; */
-    /* padding-bottom:  30px; */
+    padding-bottom:  120px;
     /* padding-left: 30px; */
     background-image:url(../img/jumbo.png);
     background-position: center;
@@ -35,7 +37,8 @@ nav{
 nav .container {
     /* background-color: #daa520; */
     /* test */
-
+    padding-top: 10px;
+    padding-bottom:30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,7 +50,7 @@ nav .container >*{
 }
 
 header,section{
-    padding: 40px 20px;
+    padding: 20px 40px;
 }
 
 
@@ -72,10 +75,18 @@ header,section{
 }
 
 nav .nav-links ul{
+    gap: 36px;
     display: flex;
     justify-content: center;
+}
+
+ul{
+   
     list-style-type: none;
-    gap: 36px;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* nav .nav-links ul li{
@@ -122,7 +133,8 @@ nav .nav-links ul{
 .container-small{
     display: flex;
     justify-content: center;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
+    padding-bottom: 20px;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
@@ -135,16 +147,16 @@ nav .nav-links ul{
 
 } */
 
-#hero{
-    padding: 40px 20px;
-}
+/* #hero{ */
+    /* padding: 40px 20px; */
+
 /* #hero .container-small .hero-text{
     /* padding: 20px 40px; */
-/* } */ */
+/* } */ 
 
 
 h1{
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 900;
     margin-bottom:20px ;
 }
@@ -179,15 +191,22 @@ h1{
     /* padding: 30px; */
 }
 .discord-img{
+    /* order: 1; */
     flex-grow: 3;
+    padding: 20px;
+
 }
+
+/* .discord-img img{
+    height: 260px;
+    width: 460px;
+} */
 
 .discord-text{
     flex-grow: 2;
     height: auto;
     text-align: left;
-    margin-left: 50px;
-    padding: 20px 80px;
+    padding: 20px  100px;
 
 }
 
@@ -203,25 +222,49 @@ h2{
 
 
  .row-grey{
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 /* .row-grey{
     /* border-style: outset; */
-    outline-style: ;
-} */
-.row-grey .light-pink{
+    /* outline-style: ; */
+/* } */ 
+ .row-grey .discord-img{
     order: 1;
 }
 
- .row-grey .green{
-    flex-grow: 1;
-    height: 890px;
-    background-color: #228b22;
-    border: black;
-    border-style: dashed;
+.row-grey .container .sub-footer{
+    text-align: center;
+    grid-column: 2;
 }
 
+/* .sub-footer{
+    w
+} */
+h3{
+    font-family: 'Whitney';
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+h3::before{
+    content: url('../img/stars.svg');
+    display: table;
+    clear: both;
+    text-align: center;
+    width: 100%;
+}
+
+.container .sub-footer .button-sub-footer{
+    background-color: #8ea1e1;
+}
+
+#footer-top .footer-links h4{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}
  .row-black{
     background-color: #23272a;
     
@@ -252,6 +295,7 @@ footer {
 }
 
 
+
 footer .container > * {
     border: dashed 2px white;
     /* test */
@@ -262,11 +306,35 @@ footer #footer-top {
     margin-bottom: 30px;
 }
 
-footer #footer-top .footer-links {
+/* footer #footer-top .footer-links {
     background-color: #f08080;
     height: 500px;
     width: 250px;
-    /* test */
+    test
+} */
+
+
+ /* footer #footer-top .img-footer img {
+    width: 18px;
+    height: 12px;
+
+} */
+
+footer #footer-top .footer-links ul a{
+    color: white;
+}
+
+footer #footer-top .footer-links ul a::before{
+    content: url("../img/ita.png");
+    margin-right: 2px;
+}
+
+footer #footer-top .footer-links ul a::after{
+    content: '˅';
+    margin-left: 2px;
+    color: white;
+    
+    
 }
 
 footer #footer-top .footer-column {
@@ -295,7 +363,4 @@ footer #footer-bottom > * {
 
     padding: 4px 8px;
 }
-
-
-
 
