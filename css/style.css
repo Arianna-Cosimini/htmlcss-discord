@@ -34,6 +34,7 @@ nav .container {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* padding: 10px; */
 }
 
@@ -62,12 +63,15 @@ header,section{
     border-style: dashed;
     font-size: 20px;
 } */ 
+.nav .nav-links{
+    flex-grow: 1;
+}
 
 nav .nav-links ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
-    gap: 12px;
+    gap: 15px;
 }
 
 /* nav .nav-links ul li{
@@ -87,6 +91,11 @@ nav .nav-links ul{
     border: black;
     border-style: dashed;
     width: 100px;
+}
+
+.container .nav-links a{
+    text-decoration: none;
+    color: black;
 }
 
 
