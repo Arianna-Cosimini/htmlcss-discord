@@ -138,9 +138,9 @@ nav .nav-links ul{
 #hero{
     padding: 40px 20px;
 }
-#hero .container-small .hero-text{
+/* #hero .container-small .hero-text{
     /* padding: 20px 40px; */
-}
+/* } */ */
 
 
 h1{
@@ -173,21 +173,32 @@ h1{
     border-color: transparent;
     margin-left: 30px;
 }
-.light-pink{
+
+.row-white .container{
+    align-items:flex-start;
+    /* padding: 30px; */
+}
+.discord-img{
     flex-grow: 3;
-    height: 490px;
-    background-color: #1e90ff;
-    border: black;
-    border-style: dashed;
 }
 
-.sky-blue{
+.discord-text{
     flex-grow: 2;
     height: auto;
-    background-color: #ffc0cb;
-    border: black;
-    border-style: dashed;
+    text-align: left;
+    margin-left: 50px;
+    padding: 20px 80px;
 
+}
+
+h2{
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.text-img p{
+    line-height: 30px;
 }
 
 
@@ -195,7 +206,10 @@ h1{
     background-color: #d3d3d3;
 }
 
-
+/* .row-grey{
+    /* border-style: outset; */
+    outline-style: ;
+} */
 .row-grey .light-pink{
     order: 1;
 }
