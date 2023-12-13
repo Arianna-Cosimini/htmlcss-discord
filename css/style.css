@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Whitney',sans-serif;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    /* padding: 50px; */
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+nav{
+    /* background-color: #add8e6; */
+    padding: 10px;
+    background-image:url(../img/jumbo.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav .container {
+    /* background-color: #daa520; */
+    /* test */
+
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+}
+
+nav .container >*{
+    padding: 10px;
+}
+
+header,section{
+    padding: 40px 20px;
+}
+
+
+/* .menu{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+
+/* .menu-nav{
+    /* padding: 10px; */
+    /* background-color: #daa520;
+    border: black;
+    border-style: dashed;
+    font-size: 20px;
+} */ 
+
+nav .nav-links ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 12px;
+}
+
+/* nav .nav-links ul li{
+    margin-right: 10px;
+    justify-content: space-around;
+    
+} */
+
+.container .button{
+    border: black;
+    border-style: dashed;
+    background-color: transparent;
+    width: 100px;
+}
+
+ .container .logo{
+    border: black;
+    border-style: dashed;
+    width: 100px;
+}
+
+
+
+/* .row{
+    display: flex;
+} */
+
+/* #hero{
+    /* background-color: #00008b; */
+    /* padding: 50px; */
+
+/* } */ 
+
+
+.container-small{
+    background-color: #ee82ee;
+    border: black;
+    border-style: dashed;
+    /* test */
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* .container-small{
+    flex-grow: 1;
+   
+
+} */
+
+.light-pink{
+    flex-grow: 3;
+    height: 490px;
+    background-color: #1e90ff;
+    border: black;
+    border-style: dashed;
+}
+
+.sky-blue{
+    flex-grow: 2;
+    height: auto;
+    background-color: #ffc0cb;
+    border: black;
+    border-style: dashed;
+
+}
+
+
+ .row-grey{
+    background-color: #d3d3d3;
+}
+
+
+.row-grey .light-pink{
+    order: 1;
+}
+
+ .row-grey .green{
+    flex-grow: 1;
+    height: 890px;
+    background-color: #228b22;
+    border: black;
+    border-style: dashed;
+}
+
+ .row-black{
+    background-color: #23272a;
+    
+}
+
+ .row-black .dark-pink{
+    flex-grow: 3;
+    height: 575px;
+    background-color: #f08080;
+    border: black;
+    border-style: dashed;
+}
+
+ .row-black .teal-blue{
+    flex-grow: 2;
+    height: 575px;
+    background-color: #20b2aa;
+    border: white;
+    border-style: dashed;
+}
+
+
+footer {
+    background-color: #23272a;
+    /* test */
+
+    padding-top: 8px;
+}
+
+
+footer .container > * {
+    border: dashed 2px white;
+    /* test */
+}
+
+
+footer #footer-top {
+    margin-bottom: 30px;
+}
+
+footer #footer-top .footer-links {
+    background-color: #f08080;
+    height: 500px;
+    width: 250px;
+    /* test */
+}
+
+footer #footer-top .footer-column {
+    background-color: #20b2aa;
+    /* test */
+    
+    flex-grow: 1;
+}
+
+footer #footer-bottom {
+    background-color: #7fffd4;
+    /* test */
+
+    margin-top: 16px;
+}
+
+footer #footer-bottom {
+    justify-content: space-between;
+
+    padding: 16px 0;
+}
+
+footer #footer-bottom > * {
+    background-color: #ffb6c1;
+    /* test */
+
+    padding: 4px 8px;
+}
+
+
+
+
